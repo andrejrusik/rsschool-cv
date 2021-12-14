@@ -55,5 +55,12 @@ var findDigit = function(num, nth){
 *****
 ### **Courses:**
 
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* JavaScript Manual on learnjavascript.ru (in progress)
+* GeekBrains:
+    * «HTML&CSS. Beginner» (comleted);
+    * «JavaScript. Beginner level» (completed);
+    * «Programming basics. Beginner» (completed);
+
 *****
 ### **Languages:**
