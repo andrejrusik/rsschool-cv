@@ -7,17 +7,11 @@ Junior Front-End developer
 *****
 
 
-![My foto](/img/foto.jpg "Nice to meet you") 
-
-
-| | |
+| ![My foto](/img/foto.jpg "Nice to meet you")  | HI'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects. I am glad to welcome you to my CV page. |
 |---|---|
 
-
-HI'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects. I am glad to welcome you to my CV page.  
-
-
 [comment]: # ()
+
 
 *****
 ### **Contact information:**
@@ -29,6 +23,11 @@ HI'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an e
 
 *****
 ### **Skills and Proficiency:**
+
+* HTML, CSS
+* Javascript basic
+* Git, Github
+* VS Code, Sublime Text
 
 *****
 ### **Code example:**
