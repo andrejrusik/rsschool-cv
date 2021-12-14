@@ -30,6 +30,13 @@ Junior Front-End developer
 * VS Code, Sublime Text
 
 *****
+### **Languages:**
+
+* Russian - Native;
+* Polish - Intermediate;
+* English - Basic;
+
+*****
 ### **Code example:**
 
 **Find the nth Digit of a Number - KATA from CODEWARS:** Complete the function that takes two numbers as input, num and nth and return the nth digit of num (counting from right to left).
@@ -63,8 +70,3 @@ var findDigit = function(num, nth){
     * «Programming basics. Beginner» (completed);
 
 *****
-### **Languages:**
-
-* Russian - Native;
-* Polish - Intermediate;
-* English - Basic;
