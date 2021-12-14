@@ -32,6 +32,26 @@ Junior Front-End developer
 *****
 ### **Code example:**
 
+**Find the nth Digit of a Number - KATA from CODEWARS:** Complete the function that takes two numbers as input, num and nth and return the nth digit of num (counting from right to left).
+```
+var findDigit = function(num, nth){
+    if (nth<=0){
+        return -1
+      }
+    else if (num<=0) {
+        num*=-1
+      }
+      var numStr = num+'';
+      var numArr = numStr.split('').reverse();
+      if (nth>=numArr.lenght){
+        return 0
+      }
+      else {
+        return numArr.splice(nth-1,1).toString()*1
+      }
+}
+```
+
 *****
 ### **Courses:**
 
