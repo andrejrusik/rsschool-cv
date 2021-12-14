@@ -11,11 +11,11 @@ Junior Front-End developer
 *****
 ### **Contact information:**
 
+* **Phone:** +48729396192
+* **Email:** andrejrusik@gmail.com
+* **Telegramm:** @andrejrusik
+* **Facebook:** [Andrei Rushnitski](https://www.facebook.com/andrejrusik "Andrei Rushnitski")
 
-**Phone:** +48729396192
-**Email:** andrejrusik@gmail.com
-**Telegramm:** @andrejrusik
-**Facebook:** [Andrei Rushnitski](https://www.facebook.com/andrejrusik "Andrei Rushnitski")
 *****
 ### **Skills and Proficiency:**
 
