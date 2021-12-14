@@ -6,3 +6,16 @@
 [comment]: # ()
 
 *****
+### **Contact information:**
+
+*****
+### **Skills and Proficiency:**
+
+*****
+### **Code example:**
+
+*****
+### **Courses:**
+
+*****
+### **Languages:**
