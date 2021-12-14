@@ -64,3 +64,7 @@ var findDigit = function(num, nth){
 
 *****
 ### **Languages:**
+
+* Russian - Native;
+* Polish - Intermediate;
+* English - Basic;
