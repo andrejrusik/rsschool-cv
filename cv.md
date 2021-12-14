@@ -37,6 +37,16 @@ Junior Front-End developer
 * English - Basic;
 
 *****
+
+### **Completed projects:**
+* [My CV](https://andrejrusik.github.io/rsschool-cv/cv "My CV")
+  * Design;
+  * Markdown;
+  * HTML;
+  * CSS;
+  * Javascript;
+
+*****
 ### **Code example:**
 
 **Find the nth Digit of a Number - KATA from CODEWARS:** Complete the function that takes two numbers as input, num and nth and return the nth digit of num (counting from right to left).
