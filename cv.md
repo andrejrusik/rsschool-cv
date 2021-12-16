@@ -13,7 +13,7 @@
 
 * **Phone:** +48729396192
 * **Email:** andrejrusik@gmail.com
-* **Discord** andrejrusik#2403
+* **Discord:** andrejrusik#2403
 * **Telegramm:** @andrejrusik
 * **Facebook:** [Andrei Rushnitski](https://www.facebook.com/andrejrusik "Andrei Rushnitski")
 
@@ -47,15 +47,15 @@
 
 **Find the nth Digit of a Number - KATA from CODEWARS:** Complete the function that takes two numbers as input, num and nth and return the nth digit of num (counting from right to left).
 ```
-var findDigit = function(num, nth){
+let findDigit = function(num, nth){
     if (nth<=0){
         return -1
       }
     else if (num<=0) {
         num*=-1
       }
-      var numStr = num+'';
-      var numArr = numStr.split('').reverse();
+      let numStr = num+'';
+      let numArr = numStr.split('').reverse();
       if (nth>=numArr.lenght){
         return 0
       }
