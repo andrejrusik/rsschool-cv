@@ -59,10 +59,10 @@ a {
   color: #121212;
 }
 
-.button:hover{
-    background-color: #121212;
-    color: #3deaa4;
-    transition: ease 0.7s;
+.button:hover {
+  background-color: #121212;
+  color: #3deaa4;
+  transition: ease 0.7s;
 }
 
 .border {
@@ -138,6 +138,63 @@ a {
 
 .about_me p {
   line-height: 1.6rem;
+}
+
+/*! -===================- Skills -===================- */
+.skills {
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px 0;
+}
+
+.skills_wrap {
+  flex-wrap: wrap;
+  gap: 20px 40px;
+}
+
+.skills_hard,
+.skills_soft {
+  flex-direction: column;
+  gap: 20px 0;
+  flex: 1 1 209px;
+}
+
+.skills_legend {
+  gap: 20px 40px;
+}
+
+.skills_legend div:nth-child(1)::before,
+.skills_legend div:nth-child(2)::before,
+.skills_legend div:nth-child(3)::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 16px;
+}
+
+.skills_legend div:nth-child(1)::before {
+  background-color: #00ffff;
+}
+
+.skills_legend div:nth-child(2)::before {
+  background-color: #a0a6ff;
+}
+
+.skills_legend div:nth-child(3)::before {
+  background-color: #2c75ff;
+}
+
+.know_skills_border {
+  border-bottom: 3px solid #00ffff;
+}
+
+.understand_skills_border {
+  border-bottom: 3px solid #a0a6ff;
+}
+
+.can_skills_border {
+  border-bottom: 3px solid #2c75ff;
 }
 
 /*! -===================- Fonts -===================- */
