@@ -49,6 +49,22 @@ a {
   flex: 1 1 30%;
 }
 
+.button {
+  align-self: flex-start;
+  border-radius: 3px;
+  padding: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #3deaa4;
+  color: #121212;
+}
+
+.button:hover{
+    background-color: #121212;
+    color: #3deaa4;
+    transition: ease 0.7s;
+}
+
 .border {
   border: 1px solid #3deaa4;
 }
@@ -111,6 +127,17 @@ a {
 
 .home_foto {
   margin-right: -45px;
+}
+
+/*! -===================- About me -===================- */
+.about_me {
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px 20px;
+}
+
+.about_me p {
+  line-height: 1.6rem;
 }
 
 /*! -===================- Fonts -===================- */
