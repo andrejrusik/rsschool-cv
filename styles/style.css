@@ -197,6 +197,46 @@ a {
   border-bottom: 3px solid #2c75ff;
 }
 
+/*! -===================- Language -===================- */
+.lang {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lang_list {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0 40px;
+  list-style-type: none;
+}
+
+.lang_list li {
+  flex-grow: 1;
+  max-width: 250px;
+  padding-bottom: 16px;
+}
+
+.lang_list li::before {
+  content: "";
+  display: inline-block;
+  background-size: 28px 16px;
+  width: 28px;
+  height: 16px;
+  margin-right: 16px;
+}
+
+.rus::before {
+  background: url(/images/icons/Russia.png) no-repeat 50%;
+}
+
+.pl::before {
+  background: url(/images/icons/poland.png) no-repeat 50%;
+}
+
+.gb::before {
+  background: url(/images/icons/united-kingdom.png) no-repeat 50%;
+}
+
 /*! -===================- Fonts -===================- */
 @font-face {
   font-family: Axiforma;
