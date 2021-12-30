@@ -77,18 +77,18 @@
         <section class="skills flex" id="skills">
           <h2 class="skills_h2">Skills and Proficiency</h2>
           <div class="skills_wrap flex">
-            <div class="skills_hard flex">
-              <div class="can_skills_border"><span>HTML</span></div>
-              <div class="can_skills_border"><span>CSS3</span></div>
-              <div class="understand_skills_border"><span>JavaScript</span></div>
-              <div class="know_skills_border"><span>Git/GitHub</span></div>
-            </div>
-            <div class="skills_soft flex">
-              <div class="can_skills_border"><span>Self-organization</span></div>
-              <div class="can_skills_border"><span>Communication</span></div>
-              <div class="understand_skills_border"><span>Initiative</span></div>
-              <div class="can_skills_border"><span>Critique handle</span></div>
-            </div>
+            <ul class="skills_hard flex">
+              <li class="can_skills_border"><span>HTML</span></li>
+              <li class="can_skills_border"><span>CSS3</span></li>
+              <li class="understand_skills_border"><span>JavaScript</span></li>
+              <li class="know_skills_border"><span>Git/GitHub</span></li>
+            </ul>
+            <ul class="skills_soft flex">
+              <li class="can_skills_border"><span>Self-organization</span></li>
+              <li class="can_skills_border"><span>Communication</span></li>
+              <li class="understand_skills_border"><span>Initiative</span></li>
+              <li class="can_skills_border"><span>Critique handle</span></li>
+            </ul>
             <div class="skills_legend flex">
               <div><span>Know</span></div>
               <div><span>Understand</span></div>
@@ -107,12 +107,12 @@
         <section class="projects flex" id="projects">
           <h2 class="project_h2">Projects</h2>
           <div class="project_wrap flex">
-            <div class="project_card border flex">
+            <div class="project_card flex">
               <div class="project_screen">
                 <img src="/images/screenshot_cv.png" alt="screenshot cv" />
               </div>
               <div class="project_discription flex">
-                <h4 class="project_h4">My CV</h4>
+                <h3 class="project_h3">My CV</h3>
                 <p class="project_technology">Technology used</p>
                 <ul class="project_technology_list">
                   <li>HTML</li>
@@ -124,12 +124,12 @@
                 </div>
               </div>
             </div>
-            <div class="project_card border flex">
+            <div class="project_card flex">
               <div class="project_screen">
                 <img src="/images/screenshot_snake.png" alt="screenshot cv" />
               </div>
               <div class="project_discription flex">
-                <h4 class="project_h4">Game "Snake"</h4>
+                <h3 class="project_h3">Game "Snake"</h3>
                 <p class="project_technology">Technology used</p>
                 <ul class="project_technology_list">
                   <li>HTML</li>
@@ -175,36 +175,36 @@ function rgb(r, g, b) {
           <h2 class="courses_h2">Courses</h2>
           <ul class="courses_list flex">
             <li class="courses_list_item">
-              <span>JavaScript/Front-end. Stage 0</span>
-              <ul>
+              <h3>JavaScript/Front-end. Stage 0</h3>
+              <ul class='courses_item_discription'>
                 <li> <span>RS Schools Course</span> </li>
                 <li> <span>02.12.2021</span> </li>
               </ul>
             </li>
             <li class="courses_list_item">
-              <span>JavaScript Manual</span>
-              <ul>
+              <h3>JavaScript Manual</h3>
+              <ul class='courses_item_discription'>
                 <li> <span>learnjavascript.ru</span> </li>
                 <li> <span>02.12.2021</span> </li>
               </ul>
             </li>
             <li class="courses_list_item">
-              <span>Programming basics. Beginner</span>
-              <ul>
+              <h3>Programming basics. Beginner</h3>
+              <ul class='courses_item_discription'>
                 <li> <span>GeekBrains</span> </li>
                 <li> <span>29.11.2021</span> </li>
               </ul>
             </li>
             <li class="courses_list_item">
-              <span>JavaScript. Beginner level</span>
-              <ul>
+              <h3>JavaScript. Beginner level</h3>
+              <ul class='courses_item_discription'>
                 <li> <span>GeekBrains</span> </li>
                 <li> <span>28.11.2021</span> </li>
               </ul>
             </li>
             <li class="courses_list_item">
-              <span>HTML&CSS. Beginner</span>
-              <ul>
+              <h3>HTML&CSS. Beginner</h3>
+              <ul class='courses_item_discription'>
                 <li> <span>GeekBrains</span> </li>
                 <li> <span>15.04.2021</span> </li>
               </ul>
@@ -214,26 +214,28 @@ function rgb(r, g, b) {
         <section class="contact flex" id="contact">
           <h2 class="contact_h2">Contacts</h2>
           <div class="contact_wrap flex">
-            <div class="contact_location contact_item">
-              <h4>Location</h4>
+            <div class="contact_location">
+              <h3>Location</h3>
               <p>
-                30-428 Krakow <br />
-                Zdunow 20a/81 <br />
+                30-428 Krakow
+                Zdunow 20a/81
                 Poland
               </p>
             </div>
-            <div class="contact_first contact_item">
-              <h4>Contact</h4>
-              <ul>
-                <li><a href="mailto:andrejrusik@gmail.com?subject=Отклик на CV">andrejrusik@gmail.com</a></li>
-                <li><a href="tel:+48729396192"></a>Telephone: +48729396192</li>
+            <div class="contact_first">
+              <h3>Contact</h3>
+              <ul class="contact_items">
+                <li><a href="mailto:andrejrusik@gmail.com?subject=Отклик на CV"
+                    target="_blank">andrejrusik@gmail.com</a></li>
+                <li><a href="tel:+48729396192" target="_blanck">Telephone: +48729396192</a></li>
                 <li> <span>Discord:</span> <span>andrejrusik#2403</span> </li>
-                <li> <span>Telegram:</span> <span>@andrejrusik</span> </a></li>
+                <li> <a href="https://t.me/andrejrusik" target="_blank"><span>Telegram:</span>
+                    <span>@andrejrusik</span></a></li>
               </ul>
             </div>
-            <div class="contact_social contact_item">
-              <h4>Stalk me</h4>
-              <ul>
+            <div class="contact_social ">
+              <h3>Stalk me</h3>
+              <ul class="contact_items">
                 <li><a href="https://github.com/andrejrusik" target="_blanck"></a>GitHub</li>
                 <li><a href="https://www.facebook.com/andrejrusik" target="_blanck"></a>Facebook</li>
                 <li><a href="https://www.instagram.com/andrejrusik/" target="_blanck"></a>Instagram</li>
@@ -243,15 +245,11 @@ function rgb(r, g, b) {
         </section>
       </main>
       <footer class="footer flex">
-        <a href="https://github.com/andrejrusik" target="_blank"><img class="link_gh"
-            src="/images/icons/GitHub-Mark.png" alt="github" /></a>
-        <p>
-          Andrei <br />
-          Rushnitski
-        </p>
-        <p>2021&copy;</p>
         <a href="https://rs.school/js/" target="_blank"><img class="link_rs" src="/images/icons/rs_school_js.svg"
             alt="RS School" /></a>
+        <a href="https://github.com/andrejrusik" target="_blank"><img class="link_gh"
+            src="/images/icons/GitHub-Mark.png" alt="github" /></a>
+        <p>2021&copy;</p>
       </footer>
     </div>
     <div class="empty"></div>
