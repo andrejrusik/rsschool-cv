@@ -36,7 +36,7 @@ a {
   flex-direction: row;
   justify-content: flex-end;
   font-family: Axiforma, Arial, Helvetica, sans-serif;
-  color: #ffffff;
+  color: #efefef;
 }
 
 .container {
@@ -51,6 +51,48 @@ a {
 
 .border {
   border: 1px solid #3deaa4;
+}
+
+/*! -===================- Navigation -===================- */
+.nav_menu {
+  justify-content: center;
+  position: fixed;
+  max-width: 30%;
+  width: 100%;
+  padding: 0 20px;
+  color: #3deaa4;
+}
+
+.nav_wrap {
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 40px 40px;
+}
+
+.nav_header {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav_list {
+  flex-direction: column;
+  gap: 16px 0;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav_list a,
+.nav_list a:active {
+  display: inline-block;
+  width: 100%;
+  color: #3deaa4;
+}
+
+.nav_list a:hover {
+  color: #efefef;
+  transition: all ease-in-out 0.5s;
 }
 
 /*! -===================- Fonts -===================- */
