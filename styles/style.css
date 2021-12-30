@@ -319,6 +319,19 @@ a {
   font-size: 0.875rem;
 }
 
+/*! -===================- Contact -===================- */
+.contact {
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.contact_wrap {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px 40px;
+}
+
 /*! -===================- Fonts -===================- */
 @font-face {
   font-family: Axiforma;
