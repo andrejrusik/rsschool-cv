@@ -237,6 +237,45 @@ a {
   background: url(/images/icons/united-kingdom.png) no-repeat 50%;
 }
 
+/*! -===================- Projects -===================- */
+.projects {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project_wrap {
+  flex-wrap: wrap;
+  gap: 40px 80px;
+}
+
+.project_card {
+  flex: 1 1 40%;
+  flex-direction: column;
+  gap: 30px 0;
+  padding: 20px;
+}
+
+.project_screen {
+  height: 140px;
+  text-align: center;
+}
+
+.project_screen img {
+  max-width: 100%;
+  max-height: 140px;
+  object-fit: contain;
+}
+
+.project_discription {
+  flex-direction: column;
+  flex: 1 1 auto;
+  gap: 20px 0;
+}
+
+.project_technology_list {
+  list-style-type: none;
+}
+
 /*! -===================- Fonts -===================- */
 @font-face {
   font-family: Axiforma;
@@ -251,4 +290,13 @@ a {
   src: url(fonts/Axiforma\ W05\ Bold.ttf);
   src: url(fonts/Axiforma\ W05\ Bold.woff2);
   font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .home_h1 {
+    left: auto;
+  }
+  .nav_menu {
+    max-width: 400px;
+  }
 }
