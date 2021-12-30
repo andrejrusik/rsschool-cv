@@ -296,7 +296,28 @@ a {
   background-color: #000000;
 }
 
+/*! -===================- Courses -===================- */
+.courses {
+  flex-direction: column;
+  justify-content: center;
+}
 
+.courses_list {
+  flex-direction: column;
+  align-self: center;
+  gap: 20px 0;
+}
+
+.courses_list_item ul {
+  list-style-type: none;
+}
+.courses_list_item span {
+  font-weight: bold;
+}
+
+.courses_list_item li:last-child {
+  font-size: 0.875rem;
+}
 
 /*! -===================- Fonts -===================- */
 @font-face {
