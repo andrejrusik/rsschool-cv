@@ -332,6 +332,20 @@ a {
   gap: 40px 40px;
 }
 
+/*! -===================- Footer -===================- */
+.footer {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 30px;
+  height: 10vh;
+}
+
+.link_rs,
+.link_gh {
+  height: 24px;
+  filter: invert(100%);
+}
+
 /*! -===================- Fonts -===================- */
 @font-face {
   font-family: Axiforma;
