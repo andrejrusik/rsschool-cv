@@ -1,140 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/normalize.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
-    <title>CV Andrei Rushnitski</title>
-  </head>
-  <body>
-    <div class="wrapper flex">
-      <nav class="nav_menu flex">
-        <div class="naw_wrap flex">
-          <h4 class="nav_header">
-            Front-End <br />
-            Web developer
-          </h4>
-          <ul class="nav_list flex">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about_me">About me</a></li>
-            <li><a href="#skills">Skills and Proficiency</a></li>
-            <li><a href="#lang">Languages</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#code">Code example</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#contact">Contact information</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="container">
-        <header class="home flex" id="home">
-          <h1 class="home_h1">Hello! <br />I'm <br />Andrei Rushnitski</h1>
-          <div class="home_foto">
-            <svg
-              class="svg"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="400px"
-              height="400px"
-            >
-              <defs>
-                <filter id="filter">
-                  <feGaussianBlur stdDeviation="0.5" />
-                </filter>
-                <mask id="mask">
-                  <ellipse
-                    cx="50%"
-                    cy="40%"
-                    rx="35%"
-                    ry="35%"
-                    fill="white"
-                    filter="url(#filter)"
-                  ></ellipse>
-                </mask>
-              </defs>
-              <image
-                class="image"
-                xlink:href="https://www.fillmurray.com/400/400"
-                width="400px"
-                height="400px"
-                mask="url(#mask)"
-              ></image>
-            </svg>
-          </div>
-        </header>
-        <main>
-          <section class="about_me flex" id="about_me">
-            <h2 class="about_h2">About me</h2>
-            <p>
-              I'm an enthusiastic and detail-oriented Frontend Software Engineer
-              seeking an entry-level position with Company to use my skills in
-              coding, troubleshooting complex problems, and assisting in the
-              timely completion of projects. I am glad to welcome you to my CV
-              page.
-            </p>
-            <p>
-              I design eye-catching products that come to life with transitions
-              and animations that suit my clients, using the most advanced
-              technologies available today for fully interactive and responsive
-              websites and applications. I enjoy realizing my goal of creating
-              truly outstanding digital real estate that will bring them and
-              their clients the results they want. I am passionate about the
-              power of code and structures in developing great new designs, and
-              JavaScript and derived frameworks like React offer me endless and
-              exciting opportunities to develop the right solution for companies
-              around the world.
-            </p>
-            <a href="#" class="button">take cv</a>
-            <!-- Добавить файл CV -->
-          </section>
-          <section class="skills flex" id="skills">
-            <h2 class="skills_h2">Skills and Proficiency</h2>
-            <div class="skills_wrap flex">
-              <div class="skills_hard flex">
-                <div class="can_skills_border"><span>HTML</span></div>
-                <div class="can_skills_border"><span>CSS3</span></div>
-                <div class="understand_skills_border"><span>JavaScript</span></div>
-                <div class="know_skills_border"><span>Git/GitHub</span></div>
-              </div>
-              <div class="skills_soft flex">
-                <div class="can_skills_border"><span>Self-organization</span></div>
-                <div class="can_skills_border"><span>Communication</span></div>
-                <div class="understand_skills_border"><span>Initiative</span></div>
-                <div class="can_skills_border"><span>Critique handle</span></div>
-              </div>
-              <div class="skills_legend flex">
-                <div><span>Know</span></div>
-                <div><span>Understand</span></div>
-                <div><span>Can</span></div>
-              </div>
-            </div>
-          </section>
-          <section class="lang flex" id="lang"></section>
-          <section class="projects flex" id="projects"></section>
-          <section class="code flex" id="code"></section>
-          <section class="courses flex" id="courses"></section>
-          <section class="contact flex" id="contact"></section>
-        </main>
-        <footer class="footer flex">
-          <a href="https://github.com/andrejrusik" target="_blank"
-            ><img class="link_gh" src="/images/GitHub-Mark.png" alt="github"
-          /></a>
-          <p>
-            Andrei <br />
-            Rushnitski
-          </p>
-          <p>2021&copy;</p>
-          <a href="https://rs.school/js/" target="_blank"
-            ><img
-              class="link_rs"
-              src="/images/rs_school_js.svg"
-              alt="RS School"
-          /></a>
-        </footer>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/normalize.css" />
+  <link rel="stylesheet" href="/styles/style.css" />
+  <title>CV Andrei Rushnitski</title>
+</head>
+
+<body>
+  <div class="wrapper flex">
+    <nav class="nav_menu flex">
+      <div class="naw_wrap flex">
+        <h4 class="nav_header">
+          Front-End <br />
+          Web developer
+        </h4>
+        <ul class="nav_list flex">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about_me">About me</a></li>
+          <li><a href="#skills">Skills and Proficiency</a></li>
+          <li><a href="#lang">Languages</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#code">Code example</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact information</a></li>
+        </ul>
       </div>
-      <div class="empty"></div>
+    </nav>
+    <div class="container">
+      <header class="home flex" id="home">
+        <h1 class="home_h1">Hello! <br />I'm <br />Andrei Rushnitski</h1>
+        <div class="home_foto">
+          <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400px"
+            height="400px">
+            <defs>
+              <filter id="filter">
+                <feGaussianBlur stdDeviation="0.5" />
+              </filter>
+              <mask id="mask">
+                <ellipse cx="50%" cy="40%" rx="35%" ry="35%" fill="white" filter="url(#filter)"></ellipse>
+              </mask>
+            </defs>
+            <image class="image" xlink:href="https://www.fillmurray.com/400/400" width="400px" height="400px"
+              mask="url(#mask)"></image>
+          </svg>
+        </div>
+      </header>
+      <main>
+        <section class="about_me flex" id="about_me">
+          <h2 class="about_h2">About me</h2>
+          <p>
+            I'm an enthusiastic and detail-oriented Frontend Software Engineer
+            seeking an entry-level position with Company to use my skills in
+            coding, troubleshooting complex problems, and assisting in the
+            timely completion of projects. I am glad to welcome you to my CV
+            page.
+          </p>
+          <p>
+            I design eye-catching products that come to life with transitions
+            and animations that suit my clients, using the most advanced
+            technologies available today for fully interactive and responsive
+            websites and applications. I enjoy realizing my goal of creating
+            truly outstanding digital real estate that will bring them and
+            their clients the results they want. I am passionate about the
+            power of code and structures in developing great new designs, and
+            JavaScript and derived frameworks like React offer me endless and
+            exciting opportunities to develop the right solution for companies
+            around the world.
+          </p>
+          <a href="#" class="button">take cv</a>
+          <!-- Добавить файл CV -->
+        </section>
+        <section class="skills flex" id="skills">
+          <h2 class="skills_h2">Skills and Proficiency</h2>
+          <div class="skills_wrap flex">
+            <div class="skills_hard flex">
+              <div class="can_skills_border"><span>HTML</span></div>
+              <div class="can_skills_border"><span>CSS3</span></div>
+              <div class="understand_skills_border"><span>JavaScript</span></div>
+              <div class="know_skills_border"><span>Git/GitHub</span></div>
+            </div>
+            <div class="skills_soft flex">
+              <div class="can_skills_border"><span>Self-organization</span></div>
+              <div class="can_skills_border"><span>Communication</span></div>
+              <div class="understand_skills_border"><span>Initiative</span></div>
+              <div class="can_skills_border"><span>Critique handle</span></div>
+            </div>
+            <div class="skills_legend flex">
+              <div><span>Know</span></div>
+              <div><span>Understand</span></div>
+              <div><span>Can</span></div>
+            </div>
+          </div>
+        </section>
+        <section class="lang flex" id="lang">
+          <h2 class="lang_h2">Language</h2>
+          <ul class="lang_list flex">
+            <li>Russian - Native</li>
+            <li>Polish - Intermediate</li>
+            <li>English - Basic</li>
+          </ul>
+        </section>
+        <section class="projects flex" id="projects"></section>
+        <section class="code flex" id="code"></section>
+        <section class="courses flex" id="courses"></section>
+        <section class="contact flex" id="contact"></section>
+      </main>
+      <footer class="footer flex">
+        <a href="https://github.com/andrejrusik" target="_blank"><img class="link_gh" src="/images/GitHub-Mark.png"
+            alt="github" /></a>
+        <p>
+          Andrei <br />
+          Rushnitski
+        </p>
+        <p>2021&copy;</p>
+        <a href="https://rs.school/js/" target="_blank"><img class="link_rs" src="/images/rs_school_js.svg"
+            alt="RS School" /></a>
+      </footer>
     </div>
-  </body>
+    <div class="empty"></div>
+  </div>
+</body>
+
 </html>
