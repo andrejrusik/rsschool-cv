@@ -1,0 +1,70 @@
+/*! -===================- Base styles -===================- */
+body {
+  background-color: #121212;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.05rem;
+}
+
+section,
+.home,
+.nav_menu {
+  min-height: 100vh;
+}
+
+h2 {
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: Axiforma, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  flex: 3 2 auto;
+  max-width: 70%;
+  padding: 0 40px;
+}
+
+.empty {
+  flex: 1 1 30%;
+}
+
+.border {
+  border: 1px solid #3deaa4;
+}
+
+/*! -===================- Fonts -===================- */
+@font-face {
+  font-family: Axiforma;
+  src: url(fonts/Axiforma\ Regular.otf);
+  src: url(fonts/Axiforma\ Regular.ttf);
+  src: url(fonts/Axiforma\ Regular.woff2);
+}
+
+@font-face {
+  font-family: Axiforma;
+  src: url(fonts/Axiforma\ W05\ Bold.otf);
+  src: url(fonts/Axiforma\ W05\ Bold.ttf);
+  src: url(fonts/Axiforma\ W05\ Bold.woff2);
+  font-weight: bold;
+}
