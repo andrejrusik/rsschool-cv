@@ -145,7 +145,34 @@
             </div>
           </div>
         </section>
-        <section class="code flex" id="code"></section>
+        <section class="code flex" id="code">
+          <h2 class="code_h2">Code example</h2>
+          <p class="code_discription">
+            RGB To Hex Conversion - KATA from CODEWARS: The rgb function is
+            incomplete. Complete it so that passing in RGB decimal values will
+            result in a hexadecimal representation being returned. Valid
+            decimal values for RGB are 0 - 255. Any values that fall out of
+            that range must be rounded to the closest valid value.
+          </p>
+          <p>
+            Note: Your answer should always be 6 characters long, the
+            shorthand with 3 will not work here.
+          </p>
+          <pre class="code_example flex">
+              <code class="border">
+function rgb(r, g, b) {
+  function convert(x) {
+    x &lt; 0 ? (x = 0) : (x = x);
+    x > 255 ? (x = 255) : (x = x);
+    let result = x.toString(16).toUpperCase();
+    result.length == 1 ? (result = "0" + result) : result;
+    return result;
+  }
+  return convert(r) + convert(g) + convert(b);
+}
+              </code>
+            </pre>
+        </section>
         <section class="courses flex" id="courses"></section>
         <section class="contact flex" id="contact"></section>
       </main>
