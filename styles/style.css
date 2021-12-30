@@ -276,6 +276,28 @@ a {
   list-style-type: none;
 }
 
+/*! -===================- Code example -===================- */
+.code {
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px 0;
+}
+
+.code_discription span {
+  font-weight: bold;
+}
+.code_example {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.code_example code {
+  padding: 20px;
+  background-color: #000000;
+}
+
+
+
 /*! -===================- Fonts -===================- */
 @font-face {
   font-family: Axiforma;
