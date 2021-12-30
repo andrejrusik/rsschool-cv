@@ -95,6 +95,24 @@ a {
   transition: all ease-in-out 0.5s;
 }
 
+/*! -===================- HOME -===================- */
+.home {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home_h1 {
+  position: absolute;
+  left: 40px;
+  z-index: 1;
+  font-size: 72px;
+  color: #3deaa4;
+}
+
+.home_foto {
+  margin-right: -45px;
+}
+
 /*! -===================- Fonts -===================- */
 @font-face {
   font-family: Axiforma;
