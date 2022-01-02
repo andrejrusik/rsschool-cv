@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/normalize.css" />
+  <link rel="stylesheet" href="/styles/style.css" />
+  <title>CV Andrei Rushnitski</title>
+</head>
+
+<body>
+  <div class="wrapper flex">
+    <nav class="nav_menu flex">
+      <div class="nav_wrap flex">
+        <h4 class="nav_header">
+          Front-End <br />
+          Web developer
+        </h4>
+        <ul class="nav_list flex">
+          <li><a href="#nav_home">Home</a></li>
+          <li><a href="#nav_about_me">About me</a></li>
+          <li><a href="#nav_skills">Skills and Proficiency</a></li>
+          <li><a href="#nav_lang">Languages</a></li>
+          <li><a href="#nav_projects">Projects</a></li>
+          <li><a href="#nav_code">Code example</a></li>
+          <li><a href="#nav_courses">Courses</a></li>
+          <li><a href="#nav_contact">Contact information</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <header class="home flex" id="nav_home">
+        <h1 class="home_h1">Hello! <br />I'm <br />Andrei Rushnitski</h1>
+        <div class="home_foto">
+          <svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400px"
+            height="400px">
+            <defs>
+              <filter id="filter">
+                <feGaussianBlur stdDeviation="0.5" />
+              </filter>
+              <mask id="mask">
+                <ellipse cx="50%" cy="40%" rx="35%" ry="35%" fill="white" filter="url(#filter)"></ellipse>
+              </mask>
+            </defs>
+            <image class="image" xlink:href="https://www.fillmurray.com/400/400" width="400px" height="400px"
+              mask="url(#mask)"></image>
+          </svg>
+        </div>
+      </header>
+      <main>
+        <section class="about_me flex" id="nav_about_me">
+          <h2 class="about_h2">About me</h2>
+          <p>
+            I'm an enthusiastic and detail-oriented Frontend Software Engineer
+            seeking an entry-level position with Company to use my skills in
+            coding, troubleshooting complex problems, and assisting in the
+            timely completion of projects. I am glad to welcome you to my CV
+            page.
+          </p>
+          <p>
+            I design eye-catching products that come to life with transitions
+            and animations that suit my clients, using the most advanced
+            technologies available today for fully interactive and responsive
+            websites and applications. I enjoy realizing my goal of creating
+            truly outstanding digital real estate that will bring them and
+            their clients the results they want. I am passionate about the
+            power of code and structures in developing great new designs, and
+            JavaScript and derived frameworks like React offer me endless and
+            exciting opportunities to develop the right solution for companies
+            around the world.
+          </p>
+          <a href="#" class="button border">take cv</a>
+          <!-- Добавить файл CV -->
+        </section>
+        <section class="skills flex" id="nav_skills">
+          <h2 class="skills_h2">Skills and Proficiency</h2>
+          <div class="skills_wrap flex">
+            <ul class="skills_hard flex">
+              <li class="can_skills_border"><span>HTML</span></li>
+              <li class="can_skills_border"><span>CSS3</span></li>
+              <li class="understand_skills_border"><span>JavaScript</span></li>
+              <li class="know_skills_border"><span>Git/GitHub</span></li>
+            </ul>
+            <ul class="skills_soft flex">
+              <li class="can_skills_border"><span>Self-organization</span></li>
+              <li class="can_skills_border"><span>Communication</span></li>
+              <li class="understand_skills_border"><span>Initiative</span></li>
+              <li class="can_skills_border"><span>Critique handle</span></li>
+            </ul>
+            <div class="skills_legend flex">
+              <div><span>Know</span></div>
+              <div><span>Understand</span></div>
+              <div><span>Can</span></div>
+            </div>
+          </div>
+        </section>
+        <section class="lang flex" id="nav_lang">
+          <h2 class="lang_h2">Language</h2>
+          <ul class="lang_list flex">
+            <li class='rus'>Russian - Native</li>
+            <li class='pl'>Polish - Intermediate</li>
+            <li class='gb'>English - Basic</li>
+          </ul>
+        </section>
+        <section class="projects flex" id="nav_projects">
+          <h2 class="project_h2">Projects</h2>
+          <div class="project_wrap flex">
+            <div class="project_card flex">
+              <div class="project_screen">
+                <img src="/images/screenshot_cv.png" alt="screenshot cv" />
+              </div>
+              <div class="project_discription flex">
+                <h3 class="project_h3">My CV</h3>
+                <p class="project_technology">Technology used</p>
+                <ul class="project_technology_list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <div class="project_link border button">
+                  <a href="#">See more</a>
+                </div>
+              </div>
+            </div>
+            <div class="project_card flex">
+              <div class="project_screen">
+                <img src="/images/screenshot_snake.png" alt="screenshot cv" />
+              </div>
+              <div class="project_discription flex">
+                <h3 class="project_h3">Game "Snake"</h3>
+                <p class="project_technology">Technology used</p>
+                <ul class="project_technology_list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+                <div class="project_link border button">
+                  <a href="https://codepen.io/andrejrusik/pen/LjbMgW" target="_blank">See more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="code flex" id="nav_code">
+          <h2 class="code_h2">Code example</h2>
+          <p class="code_discription">
+            <span>RGB To Hex Conversion</span> - KATA from CODEWARS: The rgb function is
+            incomplete. Complete it so that passing in RGB decimal values will
+            result in a hexadecimal representation being returned. Valid
+            decimal values for RGB are 0 - 255. Any values that fall out of
+            that range must be rounded to the closest valid value.
+          </p>
+          <p>
+            Note: Your answer should always be 6 characters long, the
+            shorthand with 3 will not work here.
+          </p>
+          <pre class="code_example flex">
+              <code class="border">
+function rgb(r, g, b) {
+  function convert(x) {
+    x &lt; 0 ? (x = 0) : (x = x);
+    x > 255 ? (x = 255) : (x = x);
+    let result = x.toString(16).toUpperCase();
+    result.length == 1 ? (result = "0" + result) : result;
+    return result;
+  }
+  return convert(r) + convert(g) + convert(b);
+}
+              </code>
+            </pre>
+        </section>
+        <section class="courses flex" id="nav_courses">
+          <h2 class="courses_h2">Courses</h2>
+          <ul class="courses_list flex">
+            <li class="courses_list_item">
+              <h3>JavaScript/Front-end. Stage 0</h3>
+              <ul class='courses_item_discription'>
+                <li> <span>RS Schools Course</span> </li>
+                <li> <span>02.12.2021</span> </li>
+              </ul>
+            </li>
+            <li class="courses_list_item">
+              <h3>JavaScript Manual</h3>
+              <ul class='courses_item_discription'>
+                <li> <span>learnjavascript.ru</span> </li>
+                <li> <span>02.12.2021</span> </li>
+              </ul>
+            </li>
+            <li class="courses_list_item">
+              <h3>Programming basics. Beginner</h3>
+              <ul class='courses_item_discription'>
+                <li> <span>GeekBrains</span> </li>
+                <li> <span>29.11.2021</span> </li>
+              </ul>
+            </li>
+            <li class="courses_list_item">
+              <h3>JavaScript. Beginner level</h3>
+              <ul class='courses_item_discription'>
+                <li> <span>GeekBrains</span> </li>
+                <li> <span>28.11.2021</span> </li>
+              </ul>
+            </li>
+            <li class="courses_list_item">
+              <h3>HTML&CSS. Beginner</h3>
+              <ul class='courses_item_discription'>
+                <li> <span>GeekBrains</span> </li>
+                <li> <span>15.04.2021</span> </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="contact flex" id="nav_contact">
+          <h2 class="contact_h2">Contacts</h2>
+          <div class="contact_wrap flex">
+            <div class="contact_location">
+              <h3>Location</h3>
+              <p class='contact_loc'>
+                30-428 Krakow
+                Zdunow 20a/81
+                Poland
+              </p>
+            </div>
+            <div class="contact_first">
+              <h3>Contact</h3>
+              <ul class="contact_items">
+                <li class='contact_mail'><a href="mailto:andrejrusik@gmail.com"
+                    >andrejrusik@gmail.com</a></li>
+                <li class='contact_tel'><a href="tel:+48729396192" >Telephone: +48729396192</a></li>
+                <li class='contact_discord'> <span>Discord:</span> <span>andrejrusik#2403</span> </li>
+                <li class='contact_telegram'> <a href="https://t.me/andrejrusik" ><span>Telegram:</span>
+                    <span>@andrejrusik</span></a></li>
+              </ul>
+            </div>
+            <div class="contact_social ">
+              <h3>Stalk me</h3>
+              <ul class="contact_items">
+                <li class='contact_gh'><a href="https://github.com/andrejrusik" ></a>GitHub</li>
+                <li class='contact_fb'><a href="https://www.facebook.com/andrejrusik" target="_blank"></a>Facebook</li>
+                <li class='contact_insta'><a href="https://www.instagram.com/andrejrusik/"
+                    target="_blank"></a>Instagram</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer flex">
+        <div class="footer_wrap flex">
+          <a href="https://rs.school/js/" target="_blank"><img class="link_rs" src="/images/icons/rs_school_js.svg"
+              alt="RS School" /></a>
+          <a href="https://github.com/andrejrusik" target="_blank"><img class="link_gh"
+              src="/images/icons/GitHub-Mark.png" alt="github" /></a>
+          <p>2021&copy;</p>
+        </div>
+      </footer>
+    </div>
+    <div class="empty"></div>
+  </div>
+  <script src="/scripts/script.js"></script>
+</body>
+
+</html>
