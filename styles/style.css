@@ -361,14 +361,59 @@ a {
   padding-bottom: 10px;
 }
 
-.contact_items {
-  padding-left: 20px;
-}
-
 .contact_items li {
+  list-style-type: none;
   padding-top: 10px;
 }
+.contact_discord::before,
+.contact_telegram::before,
+.contact_gh::before,
+.contact_fb::before,
+.contact_insta::before {
+  content: "";
+  display: inline-block;
+  background: url(/images/icons/sprite_social.svg) no-repeat;
+  background-position-x: -32px;
+  width: 16px;
+  height: 16px;
+  margin-right: 16px;
+}
 
+.contact_telegram::before {
+  background-position-x: -48px;
+}
+
+.contact_gh::before {
+  background-position-x: -64px;
+}
+
+.contact_fb::before {
+  background-position-x: -0px;
+}
+
+.contact_insta::before {
+  background-position-x: -16px;
+}
+
+.contact_tel::before,
+.contact_mail::before,
+.contact_loc::before {
+  content: "";
+  display: inline-block;
+  background: url(/images/icons/contact_sprite.svg) no-repeat;
+  background-position-x: -17px;
+  width: 16px;
+  height: 16px;
+  margin-right: 16px;
+}
+
+.contact_mail::before {
+  background-position-x: -1px;
+}
+
+.contact_loc::before {
+  background-position-x: -33px;
+}
 /*! -===================- Footer -===================- */
 .footer {
   position: absolute;
