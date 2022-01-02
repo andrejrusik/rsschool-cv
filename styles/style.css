@@ -14,6 +14,8 @@ section,
 .home,
 .nav_menu {
   min-height: 100vh;
+  margin-bottom: 60px;
+  padding-top: 80px;
 }
 
 h2 {
@@ -79,10 +81,9 @@ a {
 }
 
 .nav_wrap {
+padding-top: 80px;
   flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  gap: 40px 40px;
+  gap: 20px 0;
 }
 
 .nav_header {
@@ -419,7 +420,7 @@ a {
   position: absolute;
   left: 0;
   width: 100vw;
-  height: 120px;
+  height: 60px;
   justify-content: center;
   align-items: center;
   border-top: 1px solid #7e7e7e;
