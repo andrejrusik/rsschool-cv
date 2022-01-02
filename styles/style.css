@@ -240,15 +240,15 @@ a {
 }
 
 .rus::before {
-  background: url(/images/icons/Russia.png) no-repeat 50%;
+  background: url(../images/icons/Russia.png) no-repeat 50%;
 }
 
 .pl::before {
-  background: url(/images/icons/poland.png) no-repeat 50%;
+  background: url(../images/icons/poland.png) no-repeat 50%;
 }
 
 .gb::before {
-  background: url(/images/icons/united-kingdom.png) no-repeat 50%;
+  background: url(../images/icons/united-kingdom.png) no-repeat 50%;
 }
 
 /*! -===================- Projects -===================- */
