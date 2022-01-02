@@ -450,9 +450,9 @@ a {
 /*! -===================- Fonts -===================- */
 @font-face {
   font-family: Axiforma;
-  src: url(fonts/Axiforma\ Regular.otf);
-  src: url(fonts/Axiforma\ Regular.ttf);
-  src: url(fonts/Axiforma\ Regular.woff2);
+  src: url(/fonts/Axiforma\ Regular.otf);
+  src: url(/fonts/Axiforma\ Regular.ttf);
+  src: url(/fonts/Axiforma\ Regular.woff2);
 }
 
 @font-face {
