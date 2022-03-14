@@ -24,7 +24,7 @@
 * HTML, CSS
 * Javascript basic
 * Git, Github
-* VS Code, Sublime Text
+* WebStorm, VS Code, Sublime Text
 
 *****
 ### **Languages**
