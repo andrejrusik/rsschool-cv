@@ -85,7 +85,7 @@ a {
 }
 
 .nav_wrap {
-padding-top: 80px;
+  padding-top: 80px;
   flex-direction: column;
   gap: 20px 0;
 }
@@ -240,15 +240,15 @@ padding-top: 80px;
 }
 
 .rus::before {
-  background: url(/images/icons/Russia.png) no-repeat 50%;
+  background: url(../images/icons/Russia.png) no-repeat 50%;
 }
 
 .pl::before {
-  background: url(/images/icons/poland.png) no-repeat 50%;
+  background: url(../images/icons/poland.png) no-repeat 50%;
 }
 
 .gb::before {
-  background: url(/images/icons/united-kingdom.png) no-repeat 50%;
+  background: url(../images/icons/united-kingdom.png) no-repeat 50%;
 }
 
 /*! -===================- Projects -===================- */
@@ -382,7 +382,7 @@ padding-top: 80px;
 .contact_insta::before {
   content: "";
   display: inline-block;
-  background: url(/images/icons/sprite_social.svg) no-repeat;
+  background: url(../images/icons/sprite_social.svg) no-repeat;
   background-position-x: -32px;
   width: 16px;
   height: 16px;
@@ -410,7 +410,7 @@ padding-top: 80px;
 .contact_loc::before {
   content: "";
   display: inline-block;
-  background: url(/images/icons/contact_sprite.svg) no-repeat;
+  background: url(../images/icons/contact_sprite.svg) no-repeat;
   background-position-x: -17px;
   width: 16px;
   height: 16px;
@@ -450,16 +450,16 @@ padding-top: 80px;
 /*! -===================- Fonts -===================- */
 @font-face {
   font-family: Axiforma;
-  src: url(/fonts/Axiforma\ Regular.otf);
-  src: url(/fonts/Axiforma\ Regular.ttf);
-  src: url(/fonts/Axiforma\ Regular.woff2);
+  src: url(../fonts/Axiforma\ Regular.otf);
+  src: url(../fonts/Axiforma\ Regular.ttf);
+  src: url(../fonts/Axiforma\ Regular.woff2);
 }
 
 @font-face {
   font-family: Axiforma;
-  src: url(/fonts/Axiforma\ W05\ Bold.otf);
-  src: url(/fonts/Axiforma\ W05\ Bold.ttf);
-  src: url(/fonts/Axiforma\ W05\ Bold.woff2);
+  src: url(../fonts/Axiforma\ W05\ Bold.otf);
+  src: url(../fonts/Axiforma\ W05\ Bold.ttf);
+  src: url(../fonts/Axiforma\ W05\ Bold.woff2);
   font-weight: bold;
 }
 
