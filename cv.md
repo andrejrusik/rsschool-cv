@@ -69,10 +69,12 @@ let findDigit = function(num, nth){
 *****
 ### **Courses**
 
-* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-* JavaScript Manual on learnjavascript.ru (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (completed)
+[<img src="images/js_fe_pre-school.jpg" width="200px" alt="my foto">](https://app.rs.school/certificate/wsh9azp3)
+* JavaScript Manual on [learn.javascript.ru](learn.javascript.ru) (in progress)
 * GeekBrains:
-    * «HTML&CSS. Beginner» (comleted)
+    * «HTML&CSS. Beginner» (completed)
     * «JavaScript. Beginner level» (completed)
     * «Programming basics. Beginner» (completed)
 
