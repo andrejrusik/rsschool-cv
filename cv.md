@@ -3,7 +3,7 @@
 
 #### Junior Front-End developer
 
-![My foto](images/foto.jpg "Nice to meet you")
+<img src="images/foto.jpg" width="300px" alt="my foto">
 
  Hi I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects. I am glad to welcome you to my CV page.
 
@@ -23,7 +23,7 @@
 * HTML, CSS
 * Javascript basic
 * Git, Github
-* VS Code, Sublime Text
+* WebStorm, VS Code, Sublime Text
 
 *****
 ### **Languages**
@@ -68,10 +68,12 @@ let findDigit = function(num, nth){
 *****
 ### **Courses**
 
-* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-* JavaScript Manual on learnjavascript.ru (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (completed)
+[<img src="images/js_fe_pre-school.jpg" width="200px" alt="my foto">](https://app.rs.school/certificate/wsh9azp3)
+* JavaScript Manual on [learn.javascript.ru](learn.javascript.ru) (in progress)
 * GeekBrains:
-    * «HTML&CSS. Beginner» (comleted)
+    * «HTML&CSS. Beginner» (completed)
     * «JavaScript. Beginner level» (completed)
     * «Programming basics. Beginner» (completed)
 
